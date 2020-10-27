@@ -21,7 +21,7 @@ final class CalendarViewController: UITableViewController {
         
         title = "Custom Calendar"
         tableView.register(CalendarPickerCell.self, forCellReuseIdentifier: CalendarPickerCell.reuseIdentifier)
-        tableView.rowHeight = 400
+        tableView.rowHeight = 450
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { 1 }

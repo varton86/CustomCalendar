@@ -94,7 +94,7 @@ final class CalendarPickerCell: UITableViewCell {
             collectionView.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: 5),
             collectionView.leadingAnchor.constraint(equalTo: leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            collectionView.heightAnchor.constraint(equalToConstant: 245),
+            collectionView.heightAnchor.constraint(equalToConstant: 295),
 
             footerView.leadingAnchor.constraint(equalTo: leadingAnchor),
             footerView.trailingAnchor.constraint(equalTo: trailingAnchor),
