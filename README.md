@@ -36,4 +36,5 @@ It is necessary to write a control for visual selection of the date range in the
 • Any ways to achieve the result are accepted: through collections, through stacks within stacks, through auto-layout (with or without VFL).
 • Adherence to the general principles of the Apple Human Interface Guidelines is encouraged.
 
+# Design
 ![ScreenShot](design.png)
