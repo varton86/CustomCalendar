@@ -64,9 +64,9 @@ final class CalendarPickerCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         selectionStyle = .none
-        addSubview(collectionView)
-        addSubview(headerView)
-        addSubview(footerView)
+        contentView.addSubview(collectionView)
+        contentView.addSubview(headerView)
+        contentView.addSubview(footerView)
 
         headerView.baseDate = baseDate
         headerView.backgroundColor = backgroundColor

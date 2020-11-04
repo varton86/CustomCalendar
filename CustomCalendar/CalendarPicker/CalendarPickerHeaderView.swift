@@ -25,7 +25,7 @@ final class CalendarPickerHeaderView: UIView {
     private lazy var separatorView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .black
+        view.backgroundColor = .separator
         return view
     }()
     
